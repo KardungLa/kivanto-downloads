@@ -6,7 +6,7 @@
 
 Organize documents into projects, ask your AI questions about your files, and manage contacts and tasks. Explore connections between your content in the knowledge graph.
 
-**[Download Kivanto →](https://github.com/KardungLa/kivanto-downloads/releases)** · [Deutsch](README.md)
+**[Download Kivanto →](https://github.com/KardungLa/kivanto-downloads/releases/latest)** · [Deutsch](README.md)
 
 ## What you can do
 
@@ -20,7 +20,7 @@ Kivanto Solo was previously called **Kivanto Free Local**. Older downloads and e
 
 ## 1. Choose your download
 
-Open the [download page](https://github.com/KardungLa/kivanto-downloads/releases), choose a version and expand **Assets**.
+Open the [download page](https://github.com/KardungLa/kivanto-downloads/releases/latest), choose a version and expand **Assets**.
 
 | Your computer | File to choose |
 | --- | --- |
@@ -33,7 +33,7 @@ On a Mac, check ** → About This Mac** to find your chip. Choose **`-de.exe`
 
 **Choose the installer for your operating system.** You do not need the “Source code” downloads or the `.jar` file for a normal desktop installation. Java and the local database are included.
 
-Versions marked **Pre-release** are preview builds for trying out new changes. Packages marked **`unsigned`** do not yet have a digitally verified publisher, so your operating system may display a security message. Read the notes for your chosen version.
+The download link opens the current **stable version**. Older versions marked **Pre-release** are intended for testing only. Packages marked **`unsigned`** do not yet have a digitally verified publisher, so your operating system may display a security message. Read the notes for your chosen version.
 
 If there is no matching installer under **Assets**, a download for that platform is not yet available.
 

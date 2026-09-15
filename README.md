@@ -6,7 +6,7 @@
 
 Mit Kivanto organisierst du Dokumente in Projekten, stellst deiner KI Fragen zu deinen Unterlagen und verwaltest Kontakte und Aufgaben. Der Wissensgraph macht Zusammenhänge zwischen den Inhalten sichtbar.
 
-**[Zu den Downloads →](https://github.com/KardungLa/kivanto-downloads/releases)** · [English](README.en.md)
+**[Zu den Downloads →](https://github.com/KardungLa/kivanto-downloads/releases/latest)** · [English](README.en.md)
 
 ## Was du mit Kivanto machen kannst
 
@@ -20,7 +20,7 @@ Kivanto Solo hieß bisher **Kivanto Free Local**. Ältere Downloads und bereits 
 
 ## 1. Die passende Version herunterladen
 
-Öffne die [Download-Seite](https://github.com/KardungLa/kivanto-downloads/releases) und klappe bei der gewünschten Version **Assets** auf. Wähle die Datei für deinen Rechner:
+Öffne die [Download-Seite](https://github.com/KardungLa/kivanto-downloads/releases/latest) und klappe bei der gewünschten Version **Assets** auf. Wähle die Datei für deinen Rechner:
 
 | Dein Rechner | Passende Datei |
 | --- | --- |
@@ -33,7 +33,7 @@ Auf dem Mac findest du den Chip unter ** → Über diesen Mac**. Für einen e
 
 **Nimm den Installer für dein Betriebssystem.** Die Dateien „Source code“ und die `.jar` sind für die normale Desktop-Installation nicht erforderlich. Java und die lokale Datenbank sind im Installer enthalten.
 
-Als **Pre-release** gekennzeichnete Versionen sind Vorabversionen zum Ausprobieren. Bei Paketen mit **`unsigned`** ist der Herausgeber noch nicht digital bestätigt; dein Betriebssystem kann deshalb eine Sicherheitsmeldung anzeigen. Beachte die Hinweise zur jeweiligen Version.
+Der Download-Link führt zur aktuellen **stabilen Version**. Ältere **Pre-release**-Versionen sind nur für Tests gedacht. Bei Paketen mit **`unsigned`** ist der Herausgeber noch nicht digital bestätigt; dein Betriebssystem kann deshalb eine Sicherheitsmeldung anzeigen. Beachte die Hinweise zur jeweiligen Version.
 
 Wenn unter **Assets** noch keine passende Installationsdatei steht, ist für diese Plattform noch kein Download verfügbar.
 
