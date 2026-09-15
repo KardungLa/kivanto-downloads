@@ -1,6 +1,6 @@
 <img src="assets/kivanto-mark.png" width="72" alt="Kivanto">
 
-# Kivanto Free Local
+# Kivanto Solo
 
 **Deine Dateien, dein Wissen und deine Aufgaben – an einem Ort auf deinem Rechner.**
 
@@ -15,6 +15,8 @@ Mit Kivanto organisierst du Dokumente in Projekten, stellst deiner KI Fragen zu 
 - **Kontakte und Aufgaben organisieren:** Das integrierte CRM direkt oder über den Chat nutzen. Änderungen des Agents prüfst und bestätigst du im Chat.
 - **Deine KI wählen:** Zum Beispiel Ollama, LM Studio, OpenAI, Mistral, OpenRouter oder einen eigenen kompatiblen Anbieter verwenden.
 - **Andere KI-Assistenten anbinden:** Kivanto mit Claude Desktop, Claude Code oder Codex verbinden.
+
+Kivanto Solo hieß bisher **Kivanto Free Local**. Ältere Downloads und bereits installierte Apps können noch den bisherigen Namen tragen.
 
 ## 1. Die passende Version herunterladen
 
@@ -40,26 +42,26 @@ Wenn unter **Assets** noch keine passende Installationsdatei steht, ist für die
 ### macOS
 
 1. Öffne die heruntergeladene `.dmg`-Datei.
-2. Ziehe **Kivanto** in den Ordner **Programme**.
+2. Ziehe **Kivanto Solo** in den Ordner **Programme**.
 3. Starte Kivanto aus **Programme**.
 
 ### Windows
 
 1. Öffne die heruntergeladene `.exe`-Datei.
 2. Folge dem Installationsassistenten.
-3. Starte **Kivanto** über das Startmenü oder die Desktop-Verknüpfung.
+3. Starte **Kivanto Solo** über das Startmenü oder die Desktop-Verknüpfung.
 
 ### Linux
 
 **Ubuntu/Debian:** Öffne die heruntergeladene `.deb`-Datei mit der Softwareverwaltung und installiere Kivanto. Alternativ im Download-Ordner:
 
 ```sh
-sudo apt install ./Kivanto-Free-Local-*-linux-x64-unsigned.deb
+sudo apt install ./Kivanto-*-linux-x64-unsigned.deb
 ```
 
-Starte **Kivanto** danach über das Anwendungsmenü. Verwende die App mit deinem normalen Benutzerkonto.
+Starte **Kivanto Solo** danach über das Anwendungsmenü. Verwende die App mit deinem normalen Benutzerkonto.
 
-**Portable Version:** Entpacke die `.tar.gz`-Datei in einen eigenen Ordner und starte darin `Kivanto/bin/Kivanto`. Java ist enthalten. Benötigt wird ein Linux-x64-Desktop mit glibc ab 2.35, X11 oder XWayland sowie `xdg-utils`. Auf Ubuntu 22.04 oder neuer sind die grundlegenden Desktop-Bibliotheken normalerweise bereits vorhanden.
+**Portable Version:** Entpacke die `.tar.gz`-Datei in einen eigenen Ordner und starte darin `Kivanto Solo/bin/Kivanto Solo`. Java ist enthalten. Benötigt wird ein Linux-x64-Desktop mit glibc ab 2.35, X11 oder XWayland sowie `xdg-utils`. Auf Ubuntu 22.04 oder neuer sind die grundlegenden Desktop-Bibliotheken normalerweise bereits vorhanden.
 
 Der vorgeschlagene Datenordner ist `~/.local/share/Kivanto/instance/`. Bei einem angepassten `XDG_DATA_HOME` liegt er stattdessen dort unter `Kivanto/instance/`. Die portable App und der Installer verwenden denselben Datenordner.
 
@@ -98,15 +100,17 @@ Das Kivanto-Symbol findest du auf dem Mac in der Menüleiste und auf Windows im 
 | Grau | Kivanto ist gestoppt. |
 | Rot | Beim Start oder im Betrieb ist ein Problem aufgetreten. Öffne das Statusfenster. |
 
-Zum vollständigen Beenden wählst du **Kivanto beenden** im Menü des Symbols. Das Schließen des Browserfensters beendet die App nicht.
+Zum vollständigen Beenden wählst du **Kivanto Solo beenden** im Menü des Symbols. Das Schließen des Browserfensters beendet die App nicht.
 
 ## Deine Daten und Kosten
 
 Kivanto speichert Projekte und Einstellungen lokal auf deinem Rechner. Wenn du einen Cloud-KI-Anbieter oder einen externen Dienst verbindest, werden die für die jeweilige Anfrage benötigten Inhalte an diesen Dienst gesendet. Welche KI du verwendest, bestimmst du selbst.
 
-**Free Local ist kostenlos für eine Person auf ihrem persönlich genutzten Rechner – privat oder beruflich.** Eine gemeinsame Installation für mehrere Personen benötigt die Kivanto Server-Edition. Es gelten die beim Download beigefügten Nutzungsbedingungen. Kosten deines KI-Anbieters oder anderer verbundener Dienste sind nicht enthalten.
+**Kivanto Solo ist kostenlos für eine Person auf ihrem persönlich genutzten Rechner – privat oder beruflich.** Eine gemeinsame Installation für mehrere Personen benötigt die Kivanto Server-Edition. Es gelten die beim Download beigefügten Nutzungsbedingungen. Kosten deines KI-Anbieters oder anderer verbundener Dienste sind nicht enthalten.
 
 ## Aktualisieren und sichern
+
+Auf macOS heißt die neue App **Kivanto Solo.app**. Beende die bisherige **Kivanto.app**, bevor du wechselst. Nach erfolgreichem Start kannst du die alte App entfernen. Erneuere anschließend bestehende MCP-Verknüpfungen über **KI-Clients verbinden**, damit sie den neuen App-Pfad verwenden. Das gilt auch, wenn sich der Speicherort der portablen Linux-App ändert.
 
 Beende Kivanto vor einem Update und installiere die neue Version. Deine Daten liegen getrennt von der Anwendung. Falls der Assistent nach einem Speicherort fragt, wähle den bisherigen Datenordner.
 

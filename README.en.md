@@ -1,6 +1,6 @@
 <img src="assets/kivanto-mark.png" width="72" alt="Kivanto">
 
-# Kivanto Free Local
+# Kivanto Solo
 
 **Your files, knowledge and tasks – together on your computer.**
 
@@ -15,6 +15,8 @@ Organize documents into projects, ask your AI questions about your files, and ma
 - **Manage contacts and tasks:** Use the built-in CRM directly or through chat. Review and approve the agent's proposed CRM changes in the conversation.
 - **Choose your AI:** Use Ollama, LM Studio, OpenAI, Mistral, OpenRouter or your own compatible provider.
 - **Connect other assistants:** Use Kivanto with Claude Desktop, Claude Code or Codex.
+
+Kivanto Solo was previously called **Kivanto Free Local**. Older downloads and existing installations may still use the previous name.
 
 ## 1. Choose your download
 
@@ -40,26 +42,26 @@ If there is no matching installer under **Assets**, a download for that platform
 ### macOS
 
 1. Open the downloaded `.dmg` file.
-2. Drag **Kivanto** into **Applications**.
+2. Drag **Kivanto Solo** into **Applications**.
 3. Start Kivanto from **Applications**.
 
 ### Windows
 
 1. Open the downloaded `.exe` file.
 2. Follow the installation wizard.
-3. Start **Kivanto** from the Start menu or desktop shortcut.
+3. Start **Kivanto Solo** from the Start menu or desktop shortcut.
 
 ### Linux
 
 **Ubuntu/Debian:** Open the downloaded `.deb` file with your software manager and install Kivanto. Alternatively, run this in the download folder:
 
 ```sh
-sudo apt install ./Kivanto-Free-Local-*-linux-x64-unsigned.deb
+sudo apt install ./Kivanto-*-linux-x64-unsigned.deb
 ```
 
-Start **Kivanto** from the application menu, using your normal user account.
+Start **Kivanto Solo** from the application menu, using your normal user account.
 
-**Portable version:** Extract the `.tar.gz` file into a folder you own and start `Kivanto/bin/Kivanto` inside it. Java is included. You need a Linux x64 desktop with glibc 2.35 or newer, X11 or XWayland, and `xdg-utils`. Ubuntu 22.04 and newer desktop installations normally include the basic desktop libraries.
+**Portable version:** Extract the `.tar.gz` file into a folder you own and start `Kivanto Solo/bin/Kivanto Solo` inside it. Java is included. You need a Linux x64 desktop with glibc 2.35 or newer, X11 or XWayland, and `xdg-utils`. Ubuntu 22.04 and newer desktop installations normally include the basic desktop libraries.
 
 The suggested data folder is `~/.local/share/Kivanto/instance/`. If you set a custom `XDG_DATA_HOME`, it is located there under `Kivanto/instance/` instead. The portable and installed apps use the same data folder.
 
@@ -104,9 +106,11 @@ To close the application completely, choose **Quit Kivanto** from the icon's men
 
 Kivanto stores your projects and settings locally. When you connect a cloud AI provider or another external service, the content needed for a request is sent to that service. You choose which AI provider to use.
 
-**Free Local is free for one person on their personally used computer, for personal or professional use.** A shared installation for several people requires the Kivanto Server edition. The terms included with the download apply. Charges from your AI provider or other connected services are separate.
+**Kivanto Solo is free for one person on their personally used computer, for personal or professional use.** A shared installation for several people requires the Kivanto Server edition. The terms included with the download apply. Charges from your AI provider or other connected services are separate.
 
 ## Updates and backups
+
+On macOS, the new app is **Kivanto Solo.app**. Quit the previous **Kivanto.app** before switching. After successfully starting the new app, you can remove the old one. Reconnect existing MCP clients using **Connect AI clients** so they use the new app path. Do the same if you change the location of the portable Linux app.
 
 Quit Kivanto before installing a new version. Your data is stored separately from the application. If setup asks for a data folder, select the folder you used previously.
 
