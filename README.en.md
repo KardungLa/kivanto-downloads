@@ -25,6 +25,7 @@ Open the [download page](https://github.com/KardungLa/kivanto-downloads/releases
 | Mac with an Apple chip, such as M1, M2, M3 or M4 | Filename contains **`macos-arm64`** and ends in **`.dmg`** |
 | Mac with an Intel processor | Filename contains **`macos-x64`** and ends in **`.dmg`** |
 | 64-bit Windows PC with an Intel or AMD processor | Filename contains **`windows-x64`** and ends in **`-en.exe`** |
+| 64-bit Linux PC with an Intel or AMD processor | **`linux-x64`**: **`.deb`** for Ubuntu/Debian or **`.tar.gz`** to extract |
 
 On a Mac, check ** → About This Mac** to find your chip. Choose **`-de.exe`** for a German Windows installer. The application supports both English and German.
 
@@ -47,6 +48,20 @@ If there is no matching installer under **Assets**, a download for that platform
 1. Open the downloaded `.exe` file.
 2. Follow the installation wizard.
 3. Start **Kivanto** from the Start menu or desktop shortcut.
+
+### Linux
+
+**Ubuntu/Debian:** Open the downloaded `.deb` file with your software manager and install Kivanto. Alternatively, run this in the download folder:
+
+```sh
+sudo apt install ./Kivanto-Free-Local-*-linux-x64-unsigned.deb
+```
+
+Start **Kivanto** from the application menu, using your normal user account.
+
+**Portable version:** Extract the `.tar.gz` file into a folder you own and start `Kivanto/bin/Kivanto` inside it. Java is included. You need a Linux x64 desktop with glibc 2.35 or newer, X11 or XWayland, and `xdg-utils`. Ubuntu 22.04 and newer desktop installations normally include the basic desktop libraries.
+
+The suggested data folder is `~/.local/share/Kivanto/instance/`. If you set a custom `XDG_DATA_HOME`, it is located there under `Kivanto/instance/` instead. The portable and installed apps use the same data folder.
 
 On first launch, the setup assistant guides you through choosing a language, reading and accepting the terms, and selecting a data folder. You can start with the suggested settings.
 
@@ -74,7 +89,7 @@ You can ask general questions without uploading documents. Answers about your ow
 
 ## Everyday use
 
-Find the Kivanto icon in the Mac menu bar or the Windows notification area. On Windows, it may be among the hidden icons.
+Find the Kivanto icon in the Mac menu bar or the Windows notification area. On Windows, it may be among the hidden icons. On Linux, icon support depends on your desktop environment. If no tray icon is supported, use the status window; closing it then quits the app.
 
 | Status | Meaning |
 | --- | --- |

@@ -25,6 +25,7 @@ Mit Kivanto organisierst du Dokumente in Projekten, stellst deiner KI Fragen zu 
 | Mac mit Apple-Chip, etwa M1, M2, M3 oder M4 | Dateiname enthält **`macos-arm64`**, endet auf **`.dmg`** |
 | Mac mit Intel-Prozessor | Dateiname enthält **`macos-x64`**, endet auf **`.dmg`** |
 | Windows-PC mit Intel- oder AMD-Prozessor, 64 Bit | Dateiname enthält **`windows-x64`** und endet auf **`-de.exe`** |
+| Linux-PC mit Intel- oder AMD-Prozessor, 64 Bit | **`linux-x64`**: **`.deb`** für Ubuntu/Debian oder **`.tar.gz`** zum Entpacken |
 
 Auf dem Mac findest du den Chip unter ** → Über diesen Mac**. Für einen englischen Windows-Installer wähle die Datei mit **`-en.exe`**. Die Anwendung selbst lässt sich auf Deutsch oder Englisch verwenden.
 
@@ -47,6 +48,20 @@ Wenn unter **Assets** noch keine passende Installationsdatei steht, ist für die
 1. Öffne die heruntergeladene `.exe`-Datei.
 2. Folge dem Installationsassistenten.
 3. Starte **Kivanto** über das Startmenü oder die Desktop-Verknüpfung.
+
+### Linux
+
+**Ubuntu/Debian:** Öffne die heruntergeladene `.deb`-Datei mit der Softwareverwaltung und installiere Kivanto. Alternativ im Download-Ordner:
+
+```sh
+sudo apt install ./Kivanto-Free-Local-*-linux-x64-unsigned.deb
+```
+
+Starte **Kivanto** danach über das Anwendungsmenü. Verwende die App mit deinem normalen Benutzerkonto.
+
+**Portable Version:** Entpacke die `.tar.gz`-Datei in einen eigenen Ordner und starte darin `Kivanto/bin/Kivanto`. Java ist enthalten. Benötigt wird ein Linux-x64-Desktop mit glibc ab 2.35, X11 oder XWayland sowie `xdg-utils`. Auf Ubuntu 22.04 oder neuer sind die grundlegenden Desktop-Bibliotheken normalerweise bereits vorhanden.
+
+Der vorgeschlagene Datenordner ist `~/.local/share/Kivanto/instance/`. Bei einem angepassten `XDG_DATA_HOME` liegt er stattdessen dort unter `Kivanto/instance/`. Die portable App und der Installer verwenden denselben Datenordner.
 
 Beim ersten Start führt dich der Einrichtungsassistent durch die Einrichtung. Wähle die Sprache, lies und akzeptiere die Nutzungsbedingungen und bestätige den Speicherort. Die vorgeschlagenen Einstellungen kannst du zunächst übernehmen.
 
@@ -74,7 +89,7 @@ Allgemeine Fragen kannst du auch ohne Dokumente stellen. Für Antworten über de
 
 ## Kivanto im Alltag
 
-Das Kivanto-Symbol findest du auf dem Mac in der Menüleiste und auf Windows im Infobereich der Taskleiste, gegebenenfalls unter den ausgeblendeten Symbolen.
+Das Kivanto-Symbol findest du auf dem Mac in der Menüleiste und auf Windows im Infobereich der Taskleiste, gegebenenfalls unter den ausgeblendeten Symbolen. Unter Linux hängt das Status-Icon von der Desktop-Umgebung ab. Falls kein Icon unterstützt wird, bedienst du Kivanto über das Statusfenster; dessen Schließen beendet dann die App.
 
 | Status | Bedeutung |
 | --- | --- |
